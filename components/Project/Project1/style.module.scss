@@ -1,6 +1,6 @@
-@import "../../../styles/theme.less";
+@use "../../../styles/theme.scss";
 
-.project-1 {
+.project1 {
   p {
     font-weight: 400;
     margin-bottom: 0;

@@ -1,28 +1,37 @@
 import Title from "../Common/Title";
 import Divider from "../Common/Divider";
 
-import "./style.less";
+import style from "./style.module.scss";
 
 export default function Experience() {
   return (
     <>
       <Title>工作经历</Title>
-      <ul className="experience">
+      <ul className={style.experience}>
         <li>
-          <h5>七牛云大数据团队(Pandora)</h5>
-          <p>2017.12 ~ 至今</p>
-          <p><strong>上海前端负责人</strong></p>
-          <p>负责 Pandora 产品的迭代</p>
-          <p>构建可视化系统</p>
-          <p>构建开放式应用平台</p>
+          <h5>上海领储信息咨询有限公司</h5>
+          <p>2022.04 ~ 至今</p>
+          <p><strong>技术总监</strong></p>
+          <p>组建技术团队、搭建开发工程体系、研发迭代产品</p>
         </li>
         <li>
-          <h5>比特币中国(BTCC)</h5>
-          <p>2016.06 ~ 2017.12</p>
-          <p><strong>明星员工</strong></p>
-          <p>负责区块链+项目构建及维护</p>
-          <p>负责美元交易系统</p>
-          <p>推行 TypeScript</p>
+          <h5>超集信息科技有限公司</h5>
+          <p>2020.04 ~ 2022.04</p>
+          <p><strong>前端负责人</strong></p>
+          <p>维护前端通用组件库</p>
+          <p>搭建低代码开发平台</p>
+        </li>
+        <li>
+          <h5>智慧芽信息科技有限公司</h5>
+          <p>2019.04 ~ 2020.04</p>
+          <p><strong>高级前端开发工程师</strong></p>
+          <p>负责 Bio / Chemical 产品的迭代</p>
+        </li>
+        <li>
+          <h5>高达计算机技术有限公司</h5>
+          <p>2017.07 ~ 2019.04</p>
+          <p><strong>全栈开发工程师</strong></p>
+          <p>负责前后端项目构建及维护</p>
         </li>
       </ul>
       <Divider />

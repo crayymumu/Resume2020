@@ -8,26 +8,26 @@ import Project from "../components/Project/En";
 import Download from "../components/Download/En";
 import Zh from "./zh";
 
-import "./index.less";
+import index from "./index.module.scss";
 
 export default function Resume() {
   return (
     <>
-      <div className="typo resume">
+      <div className={`${index.typo} ${index.resume}`}>
         <Head>
-          <title>Huilin Cao's Resume-Front-end-Engineer-4-years-2020</title>
+          <title>Yangsong-Zhu's Resume-Front-end-Engineer-4-years-2022</title>
         </Head>
-        <Page className="page-1">
-          <div className="left">
+        <Page className={index.page1}>
+          <div className={index.left}>
             <Info />
             <Experience />
           </div>
-          <div className="right">
+          <div className={index.right}>
             <Skills />
             <Education />
           </div>
         </Page>
-        <Page className="page-2">
+        <Page className={index.page2}>
           <Project />
         </Page>
         <Download />

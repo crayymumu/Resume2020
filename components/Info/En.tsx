@@ -2,16 +2,16 @@ import Title from "../Common/Title";
 import Divider from "../Common/Divider";
 import Icon, { EIconType } from "../Common/Icon";
 
-import "./style.less";
+import style from "./style.module.scss";
 
 export default function Info() {
   return (
     <>
       <Title>
-        <strong>Huilin Cao</strong>
+        <strong>Yangsong Zhu</strong>
       </Title>
       <Divider />
-      <ul className="info">
+      <ul className={style.info}>
         <li>
           <Icon type={EIconType.Flag} />
           <span>
@@ -21,37 +21,37 @@ export default function Info() {
         <li>
           <Icon type={EIconType.Phone} />
           <span>
-            <strong>15173266529</strong>
+            <strong>13151569970</strong>
           </span>
         </li>
         <li>
           <Icon type={EIconType.WeiChat} />
-          <span>caohuilin9588</span>
+          <span>crayymumu</span>
         </li>
         <li>
           <Icon type={EIconType.Email} />
-          <span>chl.2016@qq.com</span>
+          <span>zys854994301@gmail.com</span>
         </li>
         <li>
           <Icon type={EIconType.Education} />
-          <span>June 2017 | HNUST</span>
+          <span>June 2018 | JIT</span>
         </li>
-        <li>
-          <Icon type={EIconType.Github} />
-          <span>
-            <a href="https://github.com/caohuilin" target="_blank">
-              caohuilin
-            </a>
-          </span>
-        </li>
-        <li>
-          <Icon type={EIconType.Website} />
-          <span>
-            <a href="https://caohuilin.com" target="_blank">
-              caohuilin.com
-            </a>
-          </span>
-        </li>
+        {/*<li>*/}
+        {/*  <Icon type={EIconType.Github} />*/}
+        {/*  <span>*/}
+        {/*    <a href="https://github.com/crayymumu" target="_blank">*/}
+        {/*      crayymumu*/}
+        {/*    </a>*/}
+        {/*  </span>*/}
+        {/*</li>*/}
+        {/*<li>*/}
+        {/*  <Icon type={EIconType.Website} />*/}
+        {/*  <span>*/}
+        {/*    <a href="https://caohuilin.com" target="_blank">*/}
+        {/*      caohuilin.com*/}
+        {/*    </a>*/}
+        {/*  </span>*/}
+        {/*</li>*/}
       </ul>
       <Divider />
     </>

@@ -1,38 +1,39 @@
 import Title from "../Common/Title";
-import Divider from "../Common/Divider";
-
-import "./style.less";
+import style from "./style.module.scss";
 
 export default function Experience() {
   return (
     <>
       <Title>Experience</Title>
-      <ul className="experience">
+      <ul className={style.experience}>
         <li>
-          <h5>QINIU - Pandora</h5>
-          <p>2017.12 ~ now</p>
+          <h5>AMAX - MIS</h5>
+          <p>2020.04 ~ now</p>
           <p>
-            <strong>Head of Front-end Team</strong>
+            <strong>Front-end Manager</strong>
           </p>
-          <p>responsible for Pandora Product developing</p>
-          <p>responsible for the construction of Visual System</p>
-          <p>responsible for the construction of Open Application Platform</p>
+          <p>responsible for building open front-end applications</p>
+          <p>responsible for maintaining front-end common component library</p>
+          <p>responsible for building a low-code development platform</p>
         </li>
         <li>
-          <h5>BTCC</h5>
-          <p>2016.06 ~ 2017.12</p>
+          <h5>Patsnap - Core</h5>
+          <p>2019.05 ~ 2020.04</p>
           <p>
-            <strong>Star Employee</strong>
+            <strong>Senior Front-end Development Engineer</strong>
           </p>
           <p>
-            responsible for Blockchain Plus Product development and maintenance
+            responsible for iteration of Bio/Chemical products
+          </p>
+        </li>
+        <li>
+          <h5>CAC - China</h5>
+          <p>2017.07 ~ 2019.05</p>
+          <p>
+            <strong>Full stack developer</strong>
           </p>
           <p>
-            responsible for USD Trading System front-end development and
-            maintenance
-          </p>
-          <p>
-            responsible for promoting the usage of TypeScript company widely
+            responsible for the construction and maintenance of front-end and back-end projects
           </p>
         </li>
       </ul>

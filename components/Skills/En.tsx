@@ -1,10 +1,10 @@
 import Title, { ETitleType } from "../Common/Title";
 import Divider from "../Common/Divider";
 
-import "./style.less";
+import style from "./style.module.scss";
 
 function SkillTitle(props: React.PropsWithChildren<{}>) {
-  return <span className="skill-title">{props.children}</span>;
+  return <span className={style.skillTitle}>{props.children}</span>;
 }
 
 export default function Skills() {
@@ -12,7 +12,7 @@ export default function Skills() {
     <>
       <Title type={ETitleType.Theme}>Skills</Title>
       <Divider />
-      <ul className="skills">
+      <ul className={style.skills}>
         <li>
           <SkillTitle>HTML / CSS</SkillTitle>
           <p>1. Capable of writing semantic HTML, modulized CSS.</p>
@@ -34,21 +34,21 @@ export default function Skills() {
           {/* <p>4. Skilled in ESNext.</p> */}
         </li>
         <li>
-          <SkillTitle>React / Mobx</SkillTitle>
+          <SkillTitle> Vue.js / Vuex / Vue Router </SkillTitle>
           <p>
-            1. Capable of constructing single-page application using React and
-            Mobx.
+            1. Familiar with building single-page web applications with Vue.js, Vue Router, Vuex.
           </p>
-          <p>2. Skilled in using React Hooks.</p>
+          <p>2. Proficient in using View Ui / Element UI to quickly build system applications,
+            understand its source code and further encapsulate or transform it.</p>
         </li>
         <li>
-          <SkillTitle>Webpack / Rollup / Lerna</SkillTitle>
+          <SkillTitle>Webpack / Vue CLI / Lerna</SkillTitle>
           <p>
             1. Capable of packing project using Webpack and understanding its
             principle.
           </p>
           <p>2. Capable of optimizing Webpack packing performance.</p>
-          <p>3. Understanding the process and mechanism of Rollup.</p>
+          <p>3. Understanding the process and mechanism of Vue CLI.</p>
           <p>
             3. Understanding Lerna, a tool managing multi-package repositories
             with git and npm.
@@ -65,7 +65,7 @@ export default function Skills() {
             2. Familiar with version control tools such as Git, integration
             tools like Jenkins, bug tracking tools like JIRA.
           </p>
-          <p>3. Skilled in using Jest and all sorts of testing technics.</p>
+          {/*<p>3. Skilled in using Jest and all sorts of testing technics.</p>*/}
         </li>
       </ul>
     </>

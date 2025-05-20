@@ -1,4 +1,4 @@
-import "./style.less";
+import style from "./style.module.scss";
 
 export enum ETitleType {
   Default = "default",
@@ -9,7 +9,7 @@ export default function Title(
 ) {
   const { type = ETitleType.Default, children } = props;
   return (
-    <h4 className={type === ETitleType.Theme ? "theme-title" : "title"}>
+    <h4 className={type === ETitleType.Theme ? style.themeTitle : style.title}>
       {children}
     </h4>
   );

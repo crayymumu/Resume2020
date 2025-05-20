@@ -1,9 +1,9 @@
-import "./style.less";
+import style from "./style.module.scss";
 
 export default function Download() {
-  const href = "/曹慧琳简历-前端工程师-4年-2020.pdf";
+  const href = "/朱杨松简历-前端工程师-4年-2022.pdf";
   return (
-    <div className="download">
+    <div className={style.download}>
       <a href={href} target="_blank">
         PDF 下载
       </a>

@@ -9,18 +9,17 @@
     "export": "next export"
   },
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-less": "^1.0.1",
-    "less": "^3.12.2",
-    "next": "9.5.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "next": "15.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "typo.css": "^2.1.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.2",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "code-inspector-plugin": "^0.20.10",
+    "sass": "^1.86.0",
     "typescript": "^4.0.3"
   }
 }

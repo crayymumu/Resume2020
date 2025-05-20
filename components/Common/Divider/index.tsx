@@ -1,5 +1,5 @@
-import './style.less'
+import style from './style.module.scss'
 
 export default function Divider() {
-    return <div className="divider" />
+    return <div className={style.divider} />
 }

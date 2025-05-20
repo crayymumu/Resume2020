@@ -1,7 +1,8 @@
-const withLess = require("@zeit/next-less");
-const withCSS = require("@zeit/next-css");
+/** @type {import('next').NextConfig} */
+const { codeInspectorPlugin } = require('code-inspector-plugin');
 
-module.exports = {
+const nextConfig = {
+  output: 'export',
   devIndicators: {
     autoPrerender: false,
   },
@@ -10,11 +11,14 @@ module.exports = {
       '/': { page: '/' },
       '/en': { page: '/en' }
     }
-  }, ...withCSS(
-    withLess({
-      webpack(config, options) {
-        return config;
-      }
-    })
-  )
+  },
+  sassOptions: {
+    additionalData: `$var: red;`,
+  },
+  webpack: (config, { dev, isServer }) => {
+    config.plugins.push(codeInspectorPlugin({ bundler: 'webpack', editor: 'webstorm' }));
+    return config;
+  },
 };
+
+module.exports = nextConfig;

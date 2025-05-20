@@ -1,12 +1,12 @@
-import "./style.less";
+import style from "./style.module.scss";
 
 export default function SmallTitle(
   props: React.PropsWithChildren<{}>
 ) {
   const { children } = props;
   return (
-    <h6 className="small-title">
+    <h5 className={style.smallTitle}>
       {children}
-    </h6>
+    </h5>
   );
 }

@@ -1,19 +1,19 @@
 import Title, { ETitleType } from "../Common/Title";
 import Divider from "../Common/Divider";
 
-import "./style.less";
+import style from "./style.module.scss";
 
 export default function Education() {
   return (
     <>
       <Title type={ETitleType.Theme}>Education</Title>
       <Divider />
-      <ul className="education">
-        <li>Hunan University Of Science And Technology</li>
-        <li>Internet of Things Engineering</li>
-        <li>2013.09 ~ 2017.06</li>
-        <li>GPA 3.7 / 4.0</li>
+      <ul className={style.education}>
+        <li>Jinling Institute of Technology</li>
+        <li>Software Engineering Major</li>
+        <li>2014.09 ~ 2018.06</li>
       </ul>
     </>
   );
 }
+

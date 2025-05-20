@@ -1,4 +1,4 @@
-import './style.less'
+import style from './style.module.scss'
 
 export enum EIconType {
   Github = "github",
@@ -12,14 +12,14 @@ export enum EIconType {
 }
 
 const IconMap = {
-  [EIconType.Github]: <i className="iconfont">&#xee2b;</i>,
-  [EIconType.WeiChat]: <i className="iconfont">&#xe613;</i>,
-  [EIconType.Info]: <i className="iconfont">&#xe609;</i>,
-  [EIconType.Flag]: <i className="iconfont">&#xe608;</i>,
-  [EIconType.Phone]: <i className="iconfont">&#xe686;</i>,
-  [EIconType.Email]: <i className="iconfont">&#xea9c;</i>,
-  [EIconType.Website]: <i className="iconfont">&#xe8be;</i>,
-  [EIconType.Education]: <i className="iconfont">&#xe61e;</i>,
+  [EIconType.Github]: <i className={style.iconfont}>&#xee2b;</i>,
+  [EIconType.WeiChat]: <i className={style.iconfont}>&#xe613;</i>,
+  [EIconType.Info]: <i className={style.iconfont}>&#xe609;</i>,
+  [EIconType.Flag]: <i className={style.iconfont}>&#xe608;</i>,
+  [EIconType.Phone]: <i className={style.iconfont}>&#xe686;</i>,
+  [EIconType.Email]: <i className={style.iconfont}>&#xea9c;</i>,
+  [EIconType.Website]: <i className={style.iconfont}>&#xe8be;</i>,
+  [EIconType.Education]: <i className={style.iconfont}>&#xe61e;</i>,
 };
 
 export default function Icon({ type }: { type: EIconType }) {

@@ -1,0 +1,7 @@
+@use '../../../styles/theme.scss';
+
+.divider {
+  height: 2px;
+  background-color: theme.$border-color;
+  margin: 15px 0;
+}

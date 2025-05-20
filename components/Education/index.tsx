@@ -5,9 +5,9 @@ export default function Education() {
     <>
       <Title>教育信息</Title>
       <ul>
-        <li>湖南科技大学</li>
-        <li>物联网工程 本科</li>
-        <li>2013.09 ~ 2017.06</li>
+        <li>金陵科技学院</li>
+        <li>软件工程 本科</li>
+        <li>2014.09 ~ 2018.06</li>
       </ul>
     </>
   );

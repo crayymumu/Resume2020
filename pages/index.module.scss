@@ -1,25 +1,26 @@
-@import "../styles/theme.less";
+@use "../styles/theme.scss";
 
 .typo {
   a {
-    color: @theme-color;
+    color: theme.$theme-color;
     border-bottom: none;
   }
   @media print {
     a {
-      color: @font-color;
-      border-bottom: 1px solid @font-color;
+      color: theme.$font-color;
+      border-bottom: 1px solid theme.$font-color;
     }
   }
 }
-.page-1 {
+.page1 {
   display: flex;
   font-size: 14px;
   .left {
     width: 326px;
+    padding-top: 50px;
     padding-left: 64px;
     padding-right: 59px;
-    background-color: @theme-color-second;
+    background-color: theme.$theme-color-second;
     ul {
       margin: 0;
       li {
@@ -30,12 +31,21 @@
   }
   .right {
     flex: 1;
-    padding: 0 50px;
+    padding: 50px;
   }
 }
-.page-2 {
+.page2 {
   font-size: 14px;
   padding: 50px 60px;
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
 }
 
 .version {

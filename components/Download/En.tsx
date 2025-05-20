@@ -1,9 +1,9 @@
-import "./style.less";
+import style from "./style.module.scss";
 
 export default function Download() {
-  const href = `/Huilin-Cao's-Resume-Front-end-Engineer-4-years-2020.pdf`;
+  const href = `/Yangsong-Zhu's Resume-Front-end-Engineer-4-years-2022.pdf`;
   return (
-    <div className="download">
+    <div className={style.download}>
       <a href={href} target="_blank">
         Download
       </a>
