@@ -1,0 +1,6 @@
+@use "@/styles/theme.scss";
+
+.smallTitle {
+  color: theme.$font-color;
+  font-weight: 400;
+}

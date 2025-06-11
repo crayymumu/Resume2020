@@ -1,0 +1,18 @@
+@use "@/styles/theme.scss";
+
+.experience {
+  h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 0;
+  }
+  p {
+    margin-bottom: 4px;
+  }
+  li {
+    border-bottom: solid 1px theme.$border-color;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}

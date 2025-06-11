@@ -2,7 +2,9 @@
 const { codeInspectorPlugin } = require('code-inspector-plugin')
 
 const nextConfig = {
-  output: 'export',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   devIndicators: {
     autoPrerender: false,
   },

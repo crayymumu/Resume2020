@@ -1,0 +1,10 @@
+@use "@/styles/theme.scss";
+
+.title {
+  color: theme.$title-color;
+  font-weight: 400;
+}
+.themeTitle {
+  color: theme.$theme-color;
+  font-weight: 400;
+}
