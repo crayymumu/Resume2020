@@ -1,8 +1,9 @@
-import Title, { ETitleType } from "../../Common/Title";
-import Divider from "../../Common/Divider";
-import SmallTitle from "../../Common/SmallTitle";
+import { ETitleType } from '../../../types'
+import Divider from '../../Common/Divider'
+import SmallTitle from '../../Common/SmallTitle'
 
-import style from "./style.module.scss";
+import Title from '../../Common/Title'
+import style from './style.module.scss'
 
 export default function Project() {
   return (
@@ -20,5 +21,5 @@ export default function Project() {
         3. 支持对角色权限设置、流程权限设置，实现数据隔离，保证数据安全性。
       </p>
     </div>
-  );
+  )
 }

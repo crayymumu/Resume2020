@@ -1,4 +1,4 @@
-import Title from "../Common/Title";
+import Title from '../Common/Title'
 
 export default function Education() {
   return (
@@ -10,5 +10,5 @@ export default function Education() {
         <li>2014.09 ~ 2018.06</li>
       </ul>
     </>
-  );
+  )
 }

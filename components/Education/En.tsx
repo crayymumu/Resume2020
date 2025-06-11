@@ -1,7 +1,8 @@
-import Title, { ETitleType } from "../Common/Title";
-import Divider from "../Common/Divider";
+import { ETitleType } from '../../types'
+import Divider from '../Common/Divider'
 
-import style from "./style.module.scss";
+import Title from '../Common/Title'
+import style from './style.module.scss'
 
 export default function Education() {
   return (
@@ -14,6 +15,5 @@ export default function Education() {
         <li>2014.09 ~ 2018.06</li>
       </ul>
     </>
-  );
+  )
 }
-

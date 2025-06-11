@@ -1,14 +1,14 @@
-import Head from "next/head";
-import Info from "../components/Info/En";
-import Education from "../components/Education/En";
-import Experience from "../components/Experience/En";
-import Page from "../components/Common/Page";
-import Skills from "../components/Skills/En";
-import Project from "../components/Project/En";
-import Download from "../components/Download/En";
-import Zh from "./zh";
+import Head from 'next/head'
+import Page from '../components/Common/Page'
+import Download from '../components/Download/En'
+import Education from '../components/Education/En'
+import Experience from '../components/Experience/En'
+import Info from '../components/Info/En'
+import Project from '../components/Project/En'
+import Skills from '../components/Skills/En'
+import index from './index.module.scss'
 
-import index from "./index.module.scss";
+import Zh from './zh'
 
 export default function Resume() {
   return (
@@ -36,5 +36,5 @@ export default function Resume() {
         <Zh />
       </div>
     </>
-  );
+  )
 }

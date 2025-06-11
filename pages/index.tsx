@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Download from "../components/Download";
-import Zh from "./zh";
+import Head from 'next/head'
+import Download from '../components/Download'
+import index from './index.module.scss'
 
-import "./index.module.scss";
-import index from "./index.module.scss";
+import Zh from './zh'
+import './index.module.scss'
 
 export default function Resume() {
   return (
@@ -13,7 +13,7 @@ export default function Resume() {
       </Head>
       <Zh />
       <Download />
-      <div className={index.version}>version: v2022.02.10</div>
+      <div className={index.version}>version: v2025.06.10</div>
     </div>
-  );
+  )
 }

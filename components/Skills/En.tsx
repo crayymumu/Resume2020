@@ -1,10 +1,11 @@
-import Title, { ETitleType } from "../Common/Title";
-import Divider from "../Common/Divider";
+import type { FC } from 'react'
+import { ETitleType } from '../../types'
+import Divider from '../Common/Divider'
+import Title from '../Common/Title'
+import style from './style.module.scss'
 
-import style from "./style.module.scss";
-
-function SkillTitle(props: React.PropsWithChildren<{}>) {
-  return <span className={style.skillTitle}>{props.children}</span>;
+const SkillTitle: FC = ({ children }) => {
+  return <span className={style.skillTitle}>{children}</span>
 }
 
 export default function Skills() {
@@ -38,8 +39,10 @@ export default function Skills() {
           <p>
             1. Familiar with building single-page web applications with Vue.js, Vue Router, Vuex.
           </p>
-          <p>2. Proficient in using View Ui / Element UI to quickly build system applications,
-            understand its source code and further encapsulate or transform it.</p>
+          <p>
+            2. Proficient in using View Ui / Element UI to quickly build system applications,
+            understand its source code and further encapsulate or transform it.
+          </p>
         </li>
         <li>
           <SkillTitle>Webpack / Vue CLI / Lerna</SkillTitle>
@@ -65,9 +68,9 @@ export default function Skills() {
             2. Familiar with version control tools such as Git, integration
             tools like Jenkins, bug tracking tools like JIRA.
           </p>
-          {/*<p>3. Skilled in using Jest and all sorts of testing technics.</p>*/}
+          {/* <p>3. Skilled in using Jest and all sorts of testing technics.</p> */}
         </li>
       </ul>
     </>
-  );
+  )
 }

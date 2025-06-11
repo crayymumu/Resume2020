@@ -1,7 +1,7 @@
-import Title from "../Common/Title";
-import Divider from "../Common/Divider";
+import Divider from '../Common/Divider'
+import Title from '../Common/Title'
 
-import style from "./style.module.scss";
+import style from './style.module.scss'
 
 export default function Experience() {
   return (
@@ -36,5 +36,5 @@ export default function Experience() {
       </ul>
       <Divider />
     </>
-  );
+  )
 }

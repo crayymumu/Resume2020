@@ -1,8 +1,9 @@
-import Title, { ETitleType } from "../Common/Title";
-import Divider from "../Common/Divider";
-import SmallTitle from "../Common/SmallTitle";
+import { ETitleType } from '../../types'
+import Divider from '../Common/Divider'
+import SmallTitle from '../Common/SmallTitle'
 
-import style from "./Project2/style.module.scss";
+import Title from '../Common/Title'
+import style from './Project2/style.module.scss'
 
 export default function Project() {
   return (
@@ -37,59 +38,60 @@ export default function Project() {
         <a
           href="https://www.npmjs.com/package/@qn-pandora/pandora-component"
           target="_blank"
+          rel="noreferrer noopener"
         >
-            amax-vue
+          amax-vue
         </a>
         : Based on view-ui components, it encapsulates common business components in platform functions.
       </p>
-      {/*<p>*/}
-      {/*  2.*/}
-      {/*  <a*/}
-      {/*    href="https://www.npmjs.com/package/@qn-pandora/pandora-app-component"*/}
-      {/*    target="_blank"*/}
-      {/*  >*/}
-      {/*    @qn-pandora/pandora-app-component*/}
-      {/*  </a>*/}
-      {/*  : Providing customized complex components.*/}
-      {/*</p>*/}
-      {/*<p>*/}
-      {/*  3.*/}
-      {/*  <a*/}
-      {/*    href="https://www.npmjs.com/package/@qn-pandora/app-sdk"*/}
-      {/*    target="_blank"*/}
-      {/*  >*/}
-      {/*    @qn-pandora/app-sdk*/}
-      {/*  </a>*/}
-      {/*  : Providing complex logic (such as search) and tool functions.*/}
-      {/*</p>*/}
-      {/*<Divider />*/}
-      {/*<SmallTitle>*/}
-      {/*  <a*/}
-      {/*    href="https://www.npmjs.com/package/create-pandora-app"*/}
-      {/*    target="_blank"*/}
-      {/*  >*/}
-      {/*    create-pandora-app*/}
-      {/*  </a>{" "}*/}
-      {/*  CLI Tool*/}
-      {/*</SmallTitle>*/}
-      {/*<p>*/}
-      {/*  Providing multiple project creation templates, which features like local*/}
-      {/*  dev, testing, previewing, etc.*/}
-      {/*</p>*/}
-      {/*<Divider />*/}
-      {/*<SmallTitle>*/}
-      {/*  <a*/}
-      {/*    href="https://www.npmjs.com/package/@qn-pandora/search-editor"*/}
-      {/*    target="_blank"*/}
-      {/*  >*/}
-      {/*    @qn-pandora/search-editor*/}
-      {/*  </a>{" "}*/}
-      {/*  search component*/}
-      {/*</SmallTitle>*/}
-      {/*<p>*/}
-      {/*  Providing a search component with SPL keyword highlighting, suggesting,*/}
-      {/*  and grammar checking features.*/}
-      {/*</p>*/}
+      {/* <p> */}
+      {/*  2. */}
+      {/*  <a */}
+      {/*    href="https://www.npmjs.com/package/@qn-pandora/pandora-app-component" */}
+      {/*    target="_blank" */}
+      {/*  > */}
+      {/*    @qn-pandora/pandora-app-component */}
+      {/*  </a> */}
+      {/*  : Providing customized complex components. */}
+      {/* </p> */}
+      {/* <p> */}
+      {/*  3. */}
+      {/*  <a */}
+      {/*    href="https://www.npmjs.com/package/@qn-pandora/app-sdk" */}
+      {/*    target="_blank" */}
+      {/*  > */}
+      {/*    @qn-pandora/app-sdk */}
+      {/*  </a> */}
+      {/*  : Providing complex logic (such as search) and tool functions. */}
+      {/* </p> */}
+      {/* <Divider /> */}
+      {/* <SmallTitle> */}
+      {/*  <a */}
+      {/*    href="https://www.npmjs.com/package/create-pandora-app" */}
+      {/*    target="_blank" */}
+      {/*  > */}
+      {/*    create-pandora-app */}
+      {/*  </a>{" "} */}
+      {/*  CLI Tool */}
+      {/* </SmallTitle> */}
+      {/* <p> */}
+      {/*  Providing multiple project creation templates, which features like local */}
+      {/*  dev, testing, previewing, etc. */}
+      {/* </p> */}
+      {/* <Divider /> */}
+      {/* <SmallTitle> */}
+      {/*  <a */}
+      {/*    href="https://www.npmjs.com/package/@qn-pandora/search-editor" */}
+      {/*    target="_blank" */}
+      {/*  > */}
+      {/*    @qn-pandora/search-editor */}
+      {/*  </a>{" "} */}
+      {/*  search component */}
+      {/* </SmallTitle> */}
+      {/* <p> */}
+      {/*  Providing a search component with SPL keyword highlighting, suggesting, */}
+      {/*  and grammar checking features. */}
+      {/* </p> */}
     </div>
-  );
+  )
 }

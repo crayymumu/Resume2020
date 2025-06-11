@@ -1,5 +1,5 @@
-import Title from "../Common/Title";
-import style from "./style.module.scss";
+import Title from '../Common/Title'
+import style from './style.module.scss'
 
 export default function Experience() {
   return (
@@ -38,5 +38,5 @@ export default function Experience() {
         </li>
       </ul>
     </>
-  );
+  )
 }

@@ -1,12 +1,11 @@
-import style from "./style.module.scss";
+import type { FC } from 'react'
+import style from './style.module.scss'
 
-export default function SmallTitle(
-  props: React.PropsWithChildren<{}>
-) {
-  const { children } = props;
+const SmallTitle: FC = ({ children }) => {
   return (
     <h5 className={style.smallTitle}>
       {children}
     </h5>
-  );
+  )
 }
+export default SmallTitle

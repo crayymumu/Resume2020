@@ -1,10 +1,11 @@
-import Title, { ETitleType } from "../Common/Title";
-import Divider from "../Common/Divider";
+import type { FC } from 'react'
+import { ETitleType } from '../../types'
+import Divider from '../Common/Divider'
+import Title from '../Common/Title'
+import style from './style.module.scss'
 
-import style from "./style.module.scss";
-
-function SkillTitle(props: React.PropsWithChildren<{}>) {
-  return <span className={style.skillTitle}>{props.children}</span>;
+const SkillTitle: FC = ({ children }) => {
+  return <span className={style.skillTitle}>{children}</span>
 }
 
 export default function Skills() {
@@ -66,5 +67,5 @@ export default function Skills() {
         </li>
       </ul>
     </>
-  );
+  )
 }

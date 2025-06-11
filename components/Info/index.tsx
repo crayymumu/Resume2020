@@ -1,8 +1,9 @@
-import Title from "../Common/Title";
-import Divider from "../Common/Divider";
-import Icon, { EIconType } from "../Common/Icon";
+import { EIconType } from '../../types'
+import Divider from '../Common/Divider'
+import Icon from '../Common/Icon'
 
-import style from "./style.module.scss";
+import Title from '../Common/Title'
+import style from './style.module.scss'
 
 export default function Info() {
   return (
@@ -19,7 +20,9 @@ export default function Info() {
         <li>
           <Icon type={EIconType.Info} />
           <span>
-            朱杨松 | 男 | 1996 | <strong>苏州、上海</strong>
+            朱杨松 | 男 | 1996 |
+            {' '}
+            <strong>苏州、上海</strong>
           </span>
         </li>
         <li>
@@ -40,24 +43,24 @@ export default function Info() {
           <Icon type={EIconType.Education} />
           <span>2018年6月毕业 | 七年工作经验</span>
         </li>
-        {/*<li>*/}
-        {/*  <Icon type={EIconType.Github} />*/}
-        {/*  <span>*/}
-        {/*    <a href="https://github.com/crayymumu" target="_blank">*/}
-        {/*      crayymumu*/}
-        {/*    </a>*/}
-        {/*  </span>*/}
-        {/*</li>*/}
-        {/*<li>*/}
-        {/*  <Icon type={EIconType.Website} />*/}
-        {/*  <span>*/}
-        {/*    <a href="https://caohuilin.com" target="_blank">*/}
-        {/*      caohuilin.com*/}
-        {/*    </a>*/}
-        {/*  </span>*/}
-        {/*</li>*/}
+        {/* <li> */}
+        {/*  <Icon type={EIconType.Github} /> */}
+        {/*  <span> */}
+        {/*    <a href="https://github.com/crayymumu" target="_blank"> */}
+        {/*      crayymumu */}
+        {/*    </a> */}
+        {/*  </span> */}
+        {/* </li> */}
+        {/* <li> */}
+        {/*  <Icon type={EIconType.Website} /> */}
+        {/*  <span> */}
+        {/*    <a href="https://caohuilin.com" target="_blank"> */}
+        {/*      caohuilin.com */}
+        {/*    </a> */}
+        {/*  </span> */}
+        {/* </li> */}
       </ul>
       <Divider />
     </>
-  );
+  )
 }

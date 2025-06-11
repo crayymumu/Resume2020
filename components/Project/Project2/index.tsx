@@ -1,7 +1,7 @@
-import Divider from "../../Common/Divider";
-import SmallTitle from "../../Common/SmallTitle";
+import Divider from '../../Common/Divider'
+import SmallTitle from '../../Common/SmallTitle'
 
-import style from "./style.module.scss";
+import style from './style.module.scss'
 
 export default function Project() {
   return (
@@ -24,11 +24,12 @@ export default function Project() {
         <a
           href="https://www.npmjs.com/package/@qn-pandora/pandora-component"
           target="_blank"
+          rel="noreferrer noopener"
         >
-            amax-iview
+          amax-iview
         </a>
         : 基于 view-ui 组件，封装平台功能中通用业务组件。
       </p>
     </div>
-  );
+  )
 }
