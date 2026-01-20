@@ -10,7 +10,7 @@ export default function Project() {
     <div className={style.project1}>
       <Title type={ETitleType.Theme}>项目介绍</Title>
       <Divider />
-      <SmallTitle>低代码平台</SmallTitle>
+      <SmallTitle>前端框架脚手架</SmallTitle>
       <p>
         1. 基于 iview-ui 封装完整的前端 CRUD 平台，将其复杂 json 配置进行包装为易用 UI 配置。
       </p>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import index from '@/app/index.module.scss'
 import Page from '@/components/Common/Page'
 import Download from '@/components/Download/En'
 import Education from '@/components/Education/En'
@@ -6,7 +7,6 @@ import Experience from '@/components/Experience/En'
 import Info from '@/components/Info/En'
 import Project from '@/components/Project/En'
 import Skills from '@/components/Skills/En'
-import index from '../index.module.scss'
 
 export const metadata: Metadata = {
   title: 'Yangsong-Zhu\'s Resume-Front-end-Engineer-4-years-2022',

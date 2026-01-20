@@ -1,15 +1,16 @@
 @use "@/styles/theme.scss";
 
-.download {
+.sideContainer {
   position: fixed;
   right: 0;
   top: 50%;
+  transform: translateY(-50%);
+}
+
+.sideButton {
   font-size: 12px;
   font-weight: 500;
-  transform: translateY(-50%);
   background: theme.$theme-color-second;
-  width: 100px;
-  height: 40px;
   line-height: 40px;
   padding: 0 20px;
   border-bottom-left-radius: 5px;
@@ -22,10 +23,11 @@
       color: theme.$theme-color;
     }
   }
+  margin-bottom: 10px;
 }
 
 @media print {
-  .download {
+  .sideContainer {
     display: none;
   }
 }

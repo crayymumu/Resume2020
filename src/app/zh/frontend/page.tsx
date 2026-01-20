@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import Page from '../../components/Common/Page'
-import Education from '../../components/Education'
-import Experience from '../../components/Experience'
-import Info from '../../components/Info'
-import Project1 from '../../components/Project/Project1'
-import Project2 from '../../components/Project/Project2'
-
-import Skills from '../../components/Skills'
-import index from '../index.module.scss'
+import index from '@/app/index.module.scss'
+import Page from '@/components/Common/Page'
+import Download from '@/components/Download'
+import Education from '@/components/Education'
+import Experience from '@/components/Experience'
+import Info from '@/components/Info'
+import Project1 from '@/components/Project/Project1'
+import Project2 from '@/components/Project/Project2'
+import Skills from '@/components/Skills'
 
 export const metadata: Metadata = {
   title: '朱杨松简历-前端工程师-7年-2025',
@@ -31,6 +31,7 @@ export default function zh() {
         <Project1 />
         <Project2 />
       </Page>
+      <Download />
     </div>
   )
 }

@@ -41,7 +41,7 @@ export default function Info() {
         </li>
         <li>
           <Icon type={EIconType.Education} />
-          <span>2018年6月毕业 | 七年工作经验</span>
+          <span>2018全日制科班本 | 七年经验</span>
         </li>
         {/* <li> */}
         {/*  <Icon type={EIconType.Github} /> */}
