@@ -1,35 +1,36 @@
 import Divider from '../../Common/Divider'
 import SmallTitle from '../../Common/SmallTitle'
-
 import style from './style.module.scss'
 
 export default function Project() {
   return (
     <div className={style.project2}>
       <Divider />
-      <SmallTitle>自定义报表应用平台</SmallTitle>
+      <SmallTitle>数据中台与企业管理中台</SmallTitle>
       <p>
-        1. 自定义 SQL 语句，实现 SQL 自动渲染为表格 UI 组件，将数据可视化等复杂的功能进行封装，方便用户根据自身需求进行调整。
+        <strong>项目地址：</strong>
+        <a href="https://data.handy-es.com" target="_blank" rel="noreferrer noopener">data.handy-es.com</a>
+        {' | '}
+        <a href="https://middle-platform.eesaenergy.com" target="_blank" rel="noreferrer noopener">middle-platform.eesaenergy.com</a>
       </p>
-      <p>
-        2. 支持自定义可视化，实现一套报表渲染生命周期规则，将用户自定义的报表渲染逻辑通过图表化的形式动态加载至平台。
-      </p>
-      <p>
-        3. 支持自定义组件，实现加载满足 Vue.js 规范的外部 .vue 文件至平台，实现页面部分自定义。
-      </p>
+      <p>主导企业级数据中台与管理中台的前端架构设计与开发，构建统一的技术底座，支撑公司多个业务系统的数据统一管理和业务协作。</p>
+      <p>1. 采用Vue 3.2 + Composition API重构企业级应用，集成Pinia 2.0.28状态管理、Element Plus 2.2.27组件库、Vue Router 4.1.6路由系统</p>
+      <p>2. 建立Vue 3 + Pinia + Vue Router + Element Plus标准体系，实现两个中台项目技术架构统一</p>
+      <p>3. 使用阿里云CDN统一管理前端依赖库，实施模块预加载策略，集成ECharts 5.4.0实现复杂数据可视化</p>
+
       <Divider />
-      <SmallTitle>应用平台基础库封装</SmallTitle>
+      <SmallTitle>储能云课堂在线教育平台</SmallTitle>
       <p>
-        1.
-        <a
-          href="https://www.npmjs.com/package/@qn-pandora/pandora-component"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          amax-iview
-        </a>
-        : 基于 view-ui 组件，封装平台功能中通用业务组件。
+        <strong>项目地址：</strong>
+        <a href="https://eslearning.handy-es.com" target="_blank" rel="noreferrer noopener">eslearning.handy-es.com</a>
+        {' | '}
+        <a href="https://eslearning-backend.handy-es.com" target="_blank" rel="noreferrer noopener">eslearning-backend.handy-es.com</a>
       </p>
+      <p>面向储能行业的专业化在线教育平台，提供课程学习、视频播放和教学管理功能。</p>
+      <p>1. Vue.js模块化前端架构，集成ckplayer多媒体播放器、阿里云视频播放解决方案</p>
+      <p>2. 集成多种视频播放方案，支持格式兼容性，二维码生成与社交分享功能</p>
+      <p>3. 图片预加载技术优化用户视觉体验，模块化代码按需加载</p>
+
     </div>
   )
 }

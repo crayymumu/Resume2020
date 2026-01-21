@@ -1,7 +1,6 @@
 import { ETitleType } from '@/types'
 import Divider from '../Common/Divider'
 import SmallTitle from '../Common/SmallTitle'
-
 import Title from '../Common/Title'
 import style from './Project2/style.module.scss'
 
@@ -10,88 +9,44 @@ export default function Project() {
     <div className={style.project1}>
       <Title type={ETitleType.Theme}>Project</Title>
       <Divider />
-      <SmallTitle>low-code platform</SmallTitle>
+      <SmallTitle>Data & Enterprise Management Platform</SmallTitle>
       <p>
-        1. Based on iview-ui, a complete front-end CRUD platform is packaged, and its complex json configuration is packaged into an easy-to-use UI configuration.
+        <strong>URL:</strong>
+        {' '}
+        <a href="https://data.handy-es.com" target="_blank" rel="noreferrer noopener">data.handy-es.com</a>
+        {' | '}
+        <a href="https://middle-platform.eesaenergy.com" target="_blank" rel="noreferrer noopener">middle-platform.eesaenergy.com</a>
       </p>
-      <p>
-        2. It implements form components that can be dragged and customized attributes, and also supports the rapid construction of different forms of custom code form components.
-      </p>
-      <p>
-        3. It supports the setting of role permissions and process permissions to achieve data isolation and ensure data security.
-      </p>
+      <p>Led frontend architecture design and development for enterprise-level data and management platforms, building a unified technical foundation supporting multiple business systems.</p>
+      <p>1. Rebuilt enterprise applications using Vue 3.2 + Composition API, Pinia 2.0.28, Element Plus 2.2.27, Vue Router 4.1.6</p>
+      <p>2. Established Vue 3 + Pinia + Vue Router + Element Plus standard system, unifying two platform architectures</p>
+      <p>3. Managed frontend dependencies via Alibaba Cloud CDN, implemented module preloading, integrated ECharts 5.4.0</p>
+
       <Divider />
-      <SmallTitle>Custom report application platform</SmallTitle>
+      <SmallTitle>EESA Energy Storage Industry Platform</SmallTitle>
       <p>
-        1. Customize the SQL statement, realize the automatic rendering of SQL as a table UI component, and encapsulate complex functions such as data visualization, which is convenient for users to adjust according to their own needs.
+        <strong>URL:</strong>
+        {' '}
+        <a href="https://database.handy-es.com" target="_blank" rel="noreferrer noopener">database.handy-es.com</a>
+        {' | '}
+        <a href="https://www.handy-es.com/platform" target="_blank" rel="noreferrer noopener">handy-es.com/platform</a>
       </p>
-      <p>
-        2. Supports custom visualization, implements a set of report rendering life cycle rules, and dynamically loads user-defined report rendering logic to the platform in a graphical form.
-      </p>
-      <p>
-        3. Supports custom components, realizes loading external .vue files that meet the Vue.js specification to the platform, and realizes partial page customization.
-      </p>
+      <p>Professional service platform for energy storage industry chain, covering database queries, enterprise services, and report management.</p>
+      <p>1. Vue.js modular architecture supporting complex queries, unified build for Web and mobile ecosystem</p>
+      <p>2. Modular code management with lazy loading, theme switching and mobile adaptation</p>
+      <p>3. Unified global loading state management, standardized build process with optimized resource loading</p>
+
       <Divider />
-      <SmallTitle>Application Platform Base Library</SmallTitle>
+      <SmallTitle>Industrial Chain Visualization Map</SmallTitle>
       <p>
-        1.
-        <a
-          href="https://www.npmjs.com/package/@qn-pandora/pandora-component"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          amax-vue
-        </a>
-        : Based on view-ui components, it encapsulates common business components in platform functions.
+        <strong>URL:</strong>
+        {' '}
+        <a href="https://industrial-map.handy-es.com" target="_blank" rel="noreferrer noopener">industrial-map.handy-es.com</a>
       </p>
-      {/* <p> */}
-      {/*  2. */}
-      {/*  <a */}
-      {/*    href="https://www.npmjs.com/package/@qn-pandora/pandora-app-component" */}
-      {/*    target="_blank" */}
-      {/*  > */}
-      {/*    @qn-pandora/pandora-app-component */}
-      {/*  </a> */}
-      {/*  : Providing customized complex components. */}
-      {/* </p> */}
-      {/* <p> */}
-      {/*  3. */}
-      {/*  <a */}
-      {/*    href="https://www.npmjs.com/package/@qn-pandora/app-sdk" */}
-      {/*    target="_blank" */}
-      {/*  > */}
-      {/*    @qn-pandora/app-sdk */}
-      {/*  </a> */}
-      {/*  : Providing complex logic (such as search) and tool functions. */}
-      {/* </p> */}
-      {/* <Divider /> */}
-      {/* <SmallTitle> */}
-      {/*  <a */}
-      {/*    href="https://www.npmjs.com/package/create-pandora-app" */}
-      {/*    target="_blank" */}
-      {/*  > */}
-      {/*    create-pandora-app */}
-      {/*  </a>{" "} */}
-      {/*  CLI Tool */}
-      {/* </SmallTitle> */}
-      {/* <p> */}
-      {/*  Providing multiple project creation templates, which features like local */}
-      {/*  dev, testing, previewing, etc. */}
-      {/* </p> */}
-      {/* <Divider /> */}
-      {/* <SmallTitle> */}
-      {/*  <a */}
-      {/*    href="https://www.npmjs.com/package/@qn-pandora/search-editor" */}
-      {/*    target="_blank" */}
-      {/*  > */}
-      {/*    @qn-pandora/search-editor */}
-      {/*  </a>{" "} */}
-      {/*  search component */}
-      {/* </SmallTitle> */}
-      {/* <p> */}
-      {/*  Providing a search component with SPL keyword highlighting, suggesting, */}
-      {/*  and grammar checking features. */}
-      {/* </p> */}
+      <p>Next.js-based industrial chain data visualization platform providing intuitive structure display and data analysis capabilities.</p>
+      <p>1. Next.js App Router + SSR optimization for first-screen performance</p>
+      <p>2. AMap API integration for enterprise geolocation visualization and clustering</p>
+      <p>3. CSS priority loading strategy, large-scale data chart rendering optimization</p>
     </div>
   )
 }

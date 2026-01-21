@@ -6,6 +6,7 @@ import Education from '@/components/Education/En'
 import Experience from '@/components/Experience/En'
 import Info from '@/components/Info/En'
 import Project from '@/components/Project/En'
+import Project2 from '@/components/Project/En2'
 import Skills from '@/components/Skills/En'
 
 export const metadata: Metadata = {
@@ -29,6 +30,9 @@ export default function en() {
         </Page>
         <Page className={index.page2}>
           <Project />
+        </Page>
+        <Page className={index.page3}>
+          <Project2 />
         </Page>
         <Download />
       </div>

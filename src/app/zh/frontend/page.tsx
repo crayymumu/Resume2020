@@ -7,6 +7,7 @@ import Experience from '@/components/Experience'
 import Info from '@/components/Info'
 import Project1 from '@/components/Project/Project1'
 import Project2 from '@/components/Project/Project2'
+import Project3 from '@/components/Project/Project3'
 import Skills from '@/components/Skills'
 
 export const metadata: Metadata = {
@@ -30,6 +31,9 @@ export default function zh() {
       <Page className={index.page2}>
         <Project1 />
         <Project2 />
+      </Page>
+      <Page className={index.page3}>
+        <Project3 />
       </Page>
       <Download />
     </div>
