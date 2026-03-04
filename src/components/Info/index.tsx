@@ -15,7 +15,7 @@ export default function Info() {
   const years = now.getMonth() >= 8 ? diff : diff - 1
   return (
     <>
-      <Title>基本信息 - 个人站：Ayden.ren</Title>
+      <Title>基本信息</Title>
       <Divider />
       <ul className={style.info}>
         <li>

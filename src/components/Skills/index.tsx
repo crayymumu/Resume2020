@@ -56,7 +56,7 @@ export default function Skills() {
             1. 有过大型单页 Web 应用实战经验，处理过大规模的数据变更场景下的优化，了解前端性能优化与调试技巧
           </p>
           <p>
-            2. 具备 Jenkins 和 Gitlab Runner 的实践经验，能够搭建和维护 CI/CD 流水线，实现自动化测试和部署，提升开发效率。
+            2. 具备 Jenkins 和 Gitlab Runner 的实践经验，能够从 0 到 1 搭建和维护 CI/CD 流水线，实现自动化测试和部署，提升开发效率。
           </p>
           <p>
             3. 通过使用 Lighthouse 进行性能分析，优化前端性能，提升用户体验

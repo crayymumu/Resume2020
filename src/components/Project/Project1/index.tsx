@@ -1,5 +1,3 @@
-'use client'
-import { useState } from 'react'
 import { ETitleType } from '@/types'
 import Divider from '../../Common/Divider'
 import SmallTitle from '../../Common/SmallTitle'
@@ -7,7 +5,6 @@ import Title from '../../Common/Title'
 import style from './style.module.scss'
 
 export default function Project() {
-  const [copied, setCopied] = useState(false)
   return (
     <div className={style.project1}>
       <Title type={ETitleType.Theme}>项目经历</Title>
@@ -34,15 +31,9 @@ export default function Project() {
         {' | '}
         <a href="https://www.handy-es.com/platform" target="_blank" rel="noreferrer noopener">handy-es.com/platform</a>
         {' | '}
-        <span
-          style={{ color: copied ? '#52c41a' : '#0066cc', cursor: 'pointer', textDecoration: 'underline' }}
-          onClick={() => {
-            navigator.clipboard.writeText('https://wxaurl.cn/734K86eyZBj')
-            setCopied(true)
-            setTimeout(() => setCopied(false), 1500)
-          }}
-        >
-          {copied ? '已复制 ✓' : '微信小程序跳转短链（web页面点击复制）'}
+        <span className={style.qrcodeLink}>
+          微信小程序（掌上储能）
+          <img src="/qrcode-handyes.png" alt="小程序二维码" className={style.qrcode} />
         </span>
       </p>
       <p>面向储能产业链的专业服务平台，涵盖数据库查询、企业服务和报告管理系统，支撑储能行业的信息化转型。</p>

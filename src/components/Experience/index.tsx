@@ -11,11 +11,11 @@ export default function Experience() {
         <li>
           <h5>
             上海领储信息咨询有限公司
-            <span className={style.tag}>新能源储能平台型公司</span>
+            <span className={style.tag}>新能源储能行业</span>
           </h5>
           <p>2022.04 ~ 至今</p>
-          <p><strong>技术总监</strong></p>
-          <p>组建技术团队、搭建开发工程体系、研发迭代产品</p>
+          <p><strong>前端技术专家</strong></p>
+          <p>搭建工程体系、提升团队能力、研发迭代产品</p>
         </li>
         <li>
           <h5>
@@ -23,7 +23,7 @@ export default function Experience() {
             <span className={style.tag}>上市外企</span>
           </h5>
           <p>2020.04 ~ 2022.04</p>
-          <p><strong>前端负责人</strong></p>
+          <p><strong>高级前端开发工程师</strong></p>
           <p>维护前端通用组件库</p>
           <p>搭建低代码开发平台</p>
         </li>

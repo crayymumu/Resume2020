@@ -6,3 +6,30 @@
     margin-bottom: 0;
   }
 }
+
+.qrcodeLink {
+  position: relative;
+  color: #0066cc;
+  cursor: pointer;
+  text-decoration: underline;
+  &:hover .qrcode {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.qrcode {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  width: 150px;
+  height: 150px;
+  padding: 8px;
+  background: #fff;
+  border-radius: 4px;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
