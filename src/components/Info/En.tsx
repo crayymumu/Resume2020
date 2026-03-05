@@ -48,8 +48,8 @@ export default function Info() {
         {/* <li> */}
         {/*  <Icon type={EIconType.Website} /> */}
         {/*  <span> */}
-        {/*    <a href="https://caohuilin.com" target="_blank"> */}
-        {/*      caohuilin.com */}
+        {/*    <a href="https://resume.ayden.ren" target="_blank"> */}
+        {/*      resume.ayden.ren */}
         {/*    </a> */}
         {/*  </span> */}
         {/* </li> */}
