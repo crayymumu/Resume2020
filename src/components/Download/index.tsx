@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import style from './style.module.scss'
+import { getResumeInfo } from '@/utils/resume'
 
 export default function Download() {
-  const href = '/朱杨松简历-前端工程师-4年-2022.pdf'
+  const href = getResumeInfo().zh.pdfUrl
   const international = '/en/frontend'
   return (
     <div className={style.sideContainer}>

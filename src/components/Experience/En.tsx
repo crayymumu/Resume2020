@@ -7,33 +7,56 @@ export default function Experience() {
       <Title>Experience</Title>
       <ul className={style.experience}>
         <li>
-          <h5>AMAX - MIS</h5>
-          <p>2020.04 ~ now</p>
+          <h5>
+            EESA
+            <span className={style.enTag}>New Energy Storage</span>
+          </h5>
+          <p>2022.04 ~ Present</p>
           <p>
-            <strong>Front-end Manager</strong>
-          </p>
-          <p>responsible for building open front-end applications</p>
-          <p>responsible for maintaining front-end common component library</p>
-          <p>responsible for building a low-code development platform</p>
-        </li>
-        <li>
-          <h5>Patsnap - Core</h5>
-          <p>2019.05 ~ 2020.04</p>
-          <p>
-            <strong>Senior Front-end Development Engineer</strong>
+            <strong>Senior Frontend Engineer</strong>
           </p>
           <p>
-            responsible for iteration of Bio/Chemical products
+            Building engineering infrastructure, enhancing team capabilities,
+            developing and iterating products
           </p>
         </li>
         <li>
-          <h5>CAC - China</h5>
-          <p>2017.07 ~ 2019.05</p>
+          <h5>
+            AMAX
+            <span className={style.enTag}>Listed MNC</span>
+          </h5>
+          <p>2020.04 ~ 2022.04</p>
           <p>
-            <strong>Full stack developer</strong>
+            <strong>Senior Frontend Engineer</strong>
           </p>
           <p>
-            responsible for the construction and maintenance of front-end and back-end projects
+            Maintaining frontend component library
+            Building low-code development platform
+          </p>
+        </li>
+        <li>
+          <h5>
+            Patsnap
+            <span className={style.enTag}>Tech Unicorn</span>
+          </h5>
+          <p>2019.04 ~ 2020.04</p>
+          <p>
+            <strong>Frontend Engineer</strong>
+          </p>
+          <p>Responsible for Bio/Chemical product iterations</p>
+        </li>
+        <li>
+          <h5>
+            CAC
+            <span className={style.enTag}>Traditional Enterprise</span>
+          </h5>
+          <p>2017.07 ~ 2019.04 (including internship)</p>
+          <p>
+            <strong>Full-stack Engineer</strong>
+          </p>
+          <p>
+            Responsible for frontend and backend project development and
+            maintenance
           </p>
         </li>
       </ul>

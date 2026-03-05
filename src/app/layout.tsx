@@ -13,7 +13,7 @@ export default async function RootLayout(props: {
       <body>
         <div className={`${index.typo} resume`}>
           {children}
-          <div className={index.version}>version: v2025.06.10</div>
+          <div className={index.version}>version: v2026.03.05</div>
         </div>
         <SpeedInsights />
         <Analytics />

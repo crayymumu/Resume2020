@@ -9,9 +9,10 @@ import Project1 from '@/components/Project/Project1'
 import Project2 from '@/components/Project/Project2'
 import Project3 from '@/components/Project/Project3'
 import Skills from '@/components/Skills'
+import { getResumeInfo } from '@/utils/resume'
 
 export const metadata: Metadata = {
-  title: '朱杨松简历-前端工程师-7年-2025',
+  title: getResumeInfo().zh.title,
   description: '个人简历',
 }
 

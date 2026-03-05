@@ -11,7 +11,7 @@ export default function Education() {
       <Divider />
       <ul className={style.education}>
         <li>Jinling Institute of Technology</li>
-        <li>Software Engineering Major</li>
+        <li>Bachelor of Software Engineering</li>
         <li>2014.09 ~ 2018.06</li>
       </ul>
     </>

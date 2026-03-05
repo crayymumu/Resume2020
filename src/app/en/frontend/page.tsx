@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import index from '@/app/index.module.scss'
 import Page from '@/components/Common/Page'
 import Download from '@/components/Download/En'
-import Education from '@/components/Education/En'
 import Experience from '@/components/Experience/En'
 import Info from '@/components/Info/En'
-import Project from '@/components/Project/En'
-import Project2 from '@/components/Project/En2'
+import Project from '@/components/Project/Project1/En'
+import Project2 from '@/components/Project/Project2/En2'
 import Skills from '@/components/Skills/En'
+import { getResumeInfo } from '@/utils/resume'
 
 export const metadata: Metadata = {
-  title: 'Yangsong-Zhu\'s Resume-Front-end-Engineer-4-years-2022',
+  title: getResumeInfo().en.title,
   description: 'Resume',
 }
 
@@ -25,7 +25,6 @@ export default function en() {
           </div>
           <div className={index.right}>
             <Skills />
-            <Education />
           </div>
         </Page>
         <Page className={index.page2}>

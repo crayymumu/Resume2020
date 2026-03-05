@@ -16,59 +16,54 @@ export default function Skills() {
       <ul className={style.skills}>
         <li>
           <SkillTitle>HTML / CSS</SkillTitle>
-          <p>1. Capable of writing semantic HTML, modulized CSS.</p>
+          <p>1. Proficient in semantic HTML with W3C compliance, ensuring code readability and maintainability</p>
           <p>
-            2. Capable of constructing complex layout using Flexbox and complex
-            animation using CSS3.
+            2. Expert in Flexbox and Grid layouts for complex multi-column responsive designs across devices
           </p>
-          <p>3. Capable of effectively writing CSS using LESS.</p>
           <p>
-            4. Understanding DOM loading and rendering mechanism in modern
-            browsers like Google Chrome.
+            3. Skilled in CSS preprocessors (Less, Sass/Scss, Stylus) for modular, maintainable styling
+          </p>
+          <p>
+            4. Deep understanding of browser rendering: DOM construction, style computation, and layout flows
+          </p>
+          <p>
+            5. Extensive cross-browser compatibility experience with consistent visual rendering
           </p>
         </li>
         <li>
           <SkillTitle>TypeScript / JavaScript</SkillTitle>
-          <p>1. Familiar with TypeScript and its tool in CI/CD process.</p>
-          <p>2. Understanding advanced type in TypeScript.</p>
-          {/* <p>3. Understanding fundamental concept of JavaScript.</p> */}
-          {/* <p>4. Skilled in ESNext.</p> */}
-        </li>
-        <li>
-          <SkillTitle> Vue.js / Vuex / Vue Router </SkillTitle>
           <p>
-            1. Familiar with building single-page web applications with Vue.js, Vue Router, Vuex.
+            1. Proficient in TypeScript with advanced types, integrating toolchains into CI/CD pipelines
           </p>
           <p>
-            2. Proficient in using View Ui / Element UI to quickly build system applications,
-            understand its source code and further encapsulate or transform it.
+            2. Solid JavaScript fundamentals with expertise in ES6+ syntax
           </p>
         </li>
         <li>
-          <SkillTitle>Webpack / Vue CLI / Lerna</SkillTitle>
-          <p>
-            1. Capable of packing project using Webpack and understanding its
-            principle.
-          </p>
-          <p>2. Capable of optimizing Webpack packing performance.</p>
-          <p>3. Understanding the process and mechanism of Vue CLI.</p>
-          <p>
-            3. Understanding Lerna, a tool managing multi-package repositories
-            with git and npm.
-          </p>
+          <SkillTitle>Vue.js / Nuxt / Next / Mini Programs</SkillTitle>
+          <p>1. Expert in Vue 2/3 for building efficient single-page applications</p>
+          <p>2. Proficient in Nuxt and Next.js for SSR, improving SEO and load performance</p>
+          <p>3. Experienced in WeChat native framework and uni-app for optimized mini-program development</p>
         </li>
         <li>
-          <SkillTitle>Engineering</SkillTitle>
+          <SkillTitle>Webpack / Vite</SkillTitle>
+          <p>1. Skilled in Webpack and Vite for project building and optimization with custom configurations</p>
+          <p>2. Proficient in npm and pnpm for dependency management, optimizing installation time and size</p>
+        </li>
+        <li>
+          <SkillTitle>Frontend Engineering</SkillTitle>
           <p>
-            1. Experienced in all the stages of Software Development Life Cycle
-            including Requirements, Analysis and Design, Implementation,
-            Integration and Testing, Deployment, and Maintenance.
+            1. Hands-on experience with large-scale SPA, handling performance optimization in high-volume data scenarios
           </p>
           <p>
-            2. Familiar with version control tools such as Git, integration
-            tools like Jenkins, bug tracking tools like JIRA.
+            2. Practical experience with Jenkins and GitLab Runner, building CI/CD pipelines from scratch
           </p>
-          {/* <p>3. Skilled in using Jest and all sorts of testing technics.</p> */}
+          <p>
+            3. Performance analysis using Lighthouse, optimizing metrics for enhanced user experience
+          </p>
+          <p>
+            4. Promoted automation tools (Husky, lint-staged) for pre-commit validation, reducing merge conflicts
+          </p>
         </li>
       </ul>
     </>

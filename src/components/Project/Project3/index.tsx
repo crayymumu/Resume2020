@@ -7,8 +7,7 @@ import style from './style.module.scss'
 export default function Project() {
   return (
     <div className={style.project3}>
-      <Title type={ETitleType.Theme}>项目经历（续）</Title>
-
+      <Title type={ETitleType.Theme}>项目经历</Title>
 
       <Divider />
       <SmallTitle>储能云课堂在线教育平台</SmallTitle>

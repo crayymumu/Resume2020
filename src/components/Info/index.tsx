@@ -15,7 +15,7 @@ export default function Info() {
   const years = now.getMonth() >= 8 ? diff : diff - 1
   return (
     <>
-      <Title>基本信息 - resume.ayden.ren</Title>
+      <Title>基本信息 - <a href="https://resume.ayden.ren" target="_blank">resume.ayden.ren</a></Title>
       <Divider />
       <ul className={style.info}>
         <li>
